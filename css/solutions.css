@@ -23,3 +23,12 @@
 .ex-3-square:hover {
     border-radius: 50%;
 }
+
+/***** fourth exercise *****/
+.ex-4-square {
+    transition: background-color 1s linear;
+}
+
+.ex-4-square:hover {
+    background-color: transparent;
+}
