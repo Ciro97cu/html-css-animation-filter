@@ -83,10 +83,7 @@
 
 /***** tenth exercise *****/
 .ex-10-icon {
-    animation-name: spin;
-    animation-duration: 1s;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
+    animation: spin 1s linear infinite;
 }
 
 @keyframes spin {
@@ -106,9 +103,7 @@
 
 /***** eleventh exercise *****/
 .ex-11-icon:hover {
-    animation-name: semi-spin;
-    animation-duration: 1.5s;
-    animation-timing-function: linear;
+    animation: semi-spin 1.5s linear;
 }
 
 @keyframes semi-spin {
@@ -123,5 +118,44 @@
     }
     100% {
         transform: rotate(0deg);
+    }
+}
+
+/***** twelfth exercise *****/
+.ex-12-button:hover .ex-12-top-white{
+    animation: top-white 2s linear;
+}
+
+.ex-12-button:hover .ex-12-bottom-white{
+    animation: bottom-white 2s linear;
+}
+
+@keyframes top-white {
+    25% {
+        left: 40%;
+    }
+    50% {
+        left: 69%;
+    }
+    75% {
+        left: 40%;
+    }
+    100% {
+        left: 10%;
+    }
+}
+
+@keyframes bottom-white {
+    25% {
+        right: 45%;
+    }
+    50% {
+        right: 69%;
+    }
+    75% {
+        right: 45%;
+    }
+    100% {
+        right: 20%;
     }
 }
