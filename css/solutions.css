@@ -171,20 +171,20 @@
 
 @keyframes top-whit {
     20% {
-        left: 85%;
+        left: calc(100% - 30px);
         top: -10px;
     }
     40% {
-        left: 85%;
-        top: 50px;
+        left: calc(100% - 30px);
+        top: 55px;
     }
     60% {
-        top: 50px;
-        left: -10%;
+        top: 55px;
+        left: calc(0% - 20px);
     }
     80% {
         top: -10px;
-        left: -10%;
+        left: calc(0% - 20px);
     }
     100% {
         top: -10px;
@@ -194,20 +194,20 @@
 
 @keyframes bottom-whit {
     20% {
-        right: 80%;
+        right: calc(100% - 40px);
         bottom: -10px;
     }
     40% {
-        right: 80%;
-        bottom: 50px;
+        right: calc(100% - 40px);
+        bottom: 55px;
     }
     60% {
-        bottom: 50px;
-        right: -15%;
+        bottom: 55px;
+        right: calc(0% - 30px);
     }
     80% {
         bottom: -10px;
-        right: -15%;
+        right: calc(0% - 30px);
     }
     100% {
         bottom: -10px;
