@@ -14,3 +14,12 @@
 .ex-2-square:active {
     width: 100%;
 }
+
+/***** third exercise *****/
+.ex-3-square {
+    transition: border-radius 0.5s linear;
+}
+
+.ex-3-square:hover {
+    border-radius: 50%;
+}
