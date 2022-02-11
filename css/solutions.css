@@ -32,3 +32,16 @@
 .ex-4-square:hover {
     background-color: transparent;
 }
+
+/***** fifth exercise *****/
+.ex-5-square {
+    transition: transform 1s ease;
+}
+
+.ex-5-square:hover {
+    transform: scale(2);
+}
+
+.ex-5-square:active {
+    transform: scale(0.5);
+}
