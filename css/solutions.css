@@ -162,11 +162,11 @@
 
 /***** thirteenth exercise *****/
 .ex-13-button:hover .ex-13-top-white {
-    animation: top-whit 3s linear;
+    animation: top-whit 2s linear;
 }
 
 .ex-13-button:hover .ex-13-bottom-white {
-    animation: bottom-whit 3s linear;
+    animation: bottom-whit 2s linear;
 }
 
 @keyframes top-whit {
