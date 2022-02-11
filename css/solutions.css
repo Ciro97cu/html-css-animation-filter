@@ -59,3 +59,13 @@
 .ex-7-img:hover {
     filter: sepia(70%);
 }
+
+/***** eighth exercise *****/
+.ex-8-img {
+    transition: filter 2s ease, border-radius 2s ease;
+}
+
+.ex-8-img:hover {
+    filter: sepia(70%);
+    border-radius: 20px;
+}
