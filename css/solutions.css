@@ -159,3 +159,58 @@
         right: 20%;
     }
 }
+
+/***** thirteenth exercise *****/
+.ex-13-button:hover .ex-13-top-white {
+    animation: top-whit 3s linear;
+}
+
+.ex-13-button:hover .ex-13-bottom-white {
+    animation: bottom-whit 3s linear;
+}
+
+@keyframes top-whit {
+    20% {
+        left: 85%;
+        top: -10px;
+    }
+    40% {
+        left: 85%;
+        top: 50px;
+    }
+    60% {
+        top: 50px;
+        left: -10%;
+    }
+    80% {
+        top: -10px;
+        left: -10%;
+    }
+    100% {
+        top: -10px;
+        left: 10%;
+    }
+}
+
+@keyframes bottom-whit {
+    20% {
+        right: 80%;
+        bottom: -10px;
+    }
+    40% {
+        right: 80%;
+        bottom: 50px;
+    }
+    60% {
+        bottom: 50px;
+        right: -15%;
+    }
+    80% {
+        bottom: -10px;
+        right: -15%;
+    }
+    100% {
+        bottom: -10px;
+        right: 20%;
+    }
+}
