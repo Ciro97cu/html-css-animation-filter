@@ -105,3 +105,23 @@
 }
 
 /***** eleventh exercise *****/
+.ex-11-icon:hover {
+    animation-name: semi-spin;
+    animation-duration: 1.5s;
+    animation-timing-function: linear;
+}
+
+@keyframes semi-spin {
+    25% {
+        transform: rotate(90deg);
+    }
+    50% {
+        transform: rotate(180deg);
+    }
+    75% {
+        transform: rotate(270deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
